@@ -1,0 +1,21 @@
+.container {
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer {
+    height: 90%;
+    width: 90%;
+    position: relative;
+}
