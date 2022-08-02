@@ -92,3 +92,7 @@
     -o-border-radius: 50%;
 
 }
+
+.go {
+    cursor: pointer;
+}

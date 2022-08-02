@@ -29,8 +29,9 @@ function Navbar() {
             </div>
             <div className={style.item}>
                 <div className={style.cart} data-counter={4}>
-                    <Image src={'/imgs/cart.png'} width="40" height="40"/>
-                    {/* <div className={style.counter}>5</div> */}
+                    <Link href='/cart'>
+                        <Image className={style.go} src={'/imgs/cart.png'} width="40" height="40"/>
+                    </Link>
                 </div>
             </div>
         </div>
